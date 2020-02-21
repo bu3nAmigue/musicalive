@@ -1,6 +1,6 @@
-(ns [musicalive.util]
-  ;(:use [overtone.live])
-  )
+(ns musicalive.util
+  (:use [overtone.live]
+        [musicalive.ritmos :refer [instrumentos]]))
 
 (defn flatten1
   "Takes a map and returns a seq of all the key val pairs:
